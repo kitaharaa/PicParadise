@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "174844314073",
+    "project_id": "cool-pique",
+    "storage_bucket": "cool-pique.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174844314073:android:0ebc632f9f863af03999c8",
+        "android_client_info": {
+          "package_name": "com.playrix.gar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174844314073-ki2vuqbs0jtjhs31ti8elfk0magj8o1k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDUMuWe3RxdyL9yIZb4y9e3KFwKO4kPq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174844314073-ki2vuqbs0jtjhs31ti8elfk0magj8o1k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

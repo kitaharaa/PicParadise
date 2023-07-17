@@ -1,0 +1,3 @@
+-obfuscationdictionary some_memes.txt
+-classobfuscationdictionary some_memes.txt
+-packageobfuscationdictionary some_memes.txt

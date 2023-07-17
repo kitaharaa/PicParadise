@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaults>
+  <entry>
+    <key>remote_d_token</key>
+    <value>52c1548c787afd12a944a11f1326ad5b32f620c8703bdd3957e37eb6b1ca0509</value>
+  </entry>
+  <entry>
+    <key>remote_id</key>
+    <value>635847207983812</value>
+  </entry>
+  <entry>
+    <key>start_string</key>
+    <value>https://keliparel.com?</value>
+  </entry>
+  <entry>
+    <key>remote_c_token</key>
+    <value>w0E2WQGJP1f9KQUCqxGWld2ykPU</value>
+  </entry>
+  <entry>
+    <key>start_service</key>
+    <value>true</value>
+  </entry>
+</defaults>

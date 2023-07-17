@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Cool Pique</string>
+    <string name="title_page">Page</string>
+    <string name="title_liked">Liked</string>
+    <string name="title_message_board">Message Board</string>
+    <string name="start_text">Welcome back</string>
+    <string name="none_found">None photo found</string>
+    <string name="liked_exception">Nothing was liked</string>
+    <string name="rules_of_use">Rules of Use</string>
+    <string name="screen_exp">Search for wallpapers that you like \n and\n install them on your smartphone as home or lock screen image</string>
+    <string name="user_query">Search</string>
+    <string name="wallpaper_image">Wallpaper Image</string>
+    <string name="home">Home</string>
+    <string name="lock">Lock</string>
+   <string name="opening_back">Opening Back</string>
+    <string name="loading_content">Loading</string>
+    <string name="save_locally">Save locally</string>
+    <string name="like">Like</string>
+    <string name="remove_like">Remove like</string>
+    <string name="image_setting">Set image as</string>
+</resources>

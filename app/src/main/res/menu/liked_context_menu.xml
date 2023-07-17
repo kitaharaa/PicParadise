@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/remove_like"
+        android:title="@string/remove_like"
+        android:icon="@drawable/ic_add_to_liked"
+        />
+    <item android:id="@+id/set_as_main_menu"
+        android:title="@string/home" />
+
+    <item android:id="@+id/download_menu"
+        android:title="@string/save_locally" />
+</menu>

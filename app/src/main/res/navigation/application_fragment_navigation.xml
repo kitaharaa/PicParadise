@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_page">
+
+    <fragment
+        android:id="@+id/navigation_page"
+        android:name="com.playrix.gar.view.mainfragment.MainFragment"
+        android:label="@string/title_page"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/navigation_liked"
+        android:name="com.playrix.gar.view.liked.LikedFragment"
+        android:label="@string/title_liked"
+        tools:layout="@layout/fragment_liked" />
+
+    <fragment
+        android:id="@+id/navigation_message_board"
+        android:name="com.playrix.gar.view.message_board.MessageBoardFragment"
+        android:label="@string/title_message_board"
+        tools:layout="@layout/fragment_message_board" />
+    <fragment
+        android:id="@+id/navigation_lookup"
+        android:name="com.playrix.gar.view.search.LookupFragment"
+        android:label="fragment_lookup"
+        tools:layout="@layout/fragment_lookup" />
+</navigation>
