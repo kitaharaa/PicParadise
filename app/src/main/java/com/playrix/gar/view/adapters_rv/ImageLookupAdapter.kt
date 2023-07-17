@@ -11,13 +11,13 @@ import androidx.recyclerview.widget.ListAdapter
 import com.bumptech.glide.Glide
 import com.google.android.material.imageview.ShapeableImageView
 import com.playrix.gar.R
-import com.playrix.gar.data.api.data.lists.Photos
+import com.playrix.gar.data.api.lists.Photos
 import com.playrix.gar.data.constants.lookup_items.PhonePageConstants.HOME_PAGE
 import com.playrix.gar.data.constants.lookup_items.PhonePageConstants.PRIVACY_PAGE
 import com.playrix.gar.databinding.RecyclerLookupBinding
-import com.playrix.gar.view.adapters_rv.viewholder.ImageLookupViewHolder
 import com.playrix.gar.some_services.helpers.diffs.LookupDiffUtil
 import com.playrix.gar.some_services.services.lookuper.LookupImageManager
+import com.playrix.gar.view.adapters_rv.viewholder.ImageLookupViewHolder
 import dagger.hilt.android.qualifiers.ActivityContext
 import javax.inject.Inject
 

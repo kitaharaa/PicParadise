@@ -2,17 +2,10 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
-    id 'com.google.firebase.crashlytics'
-    id 'com.google.gms.google-services'
-    id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
-    id 'io.github.c0nnor263.obfustring-plugin'
     id 'com.google.dagger.hilt.android'
     id("com.google.devtools.ksp")
 }
 
-obfustring{
-    packageKey = "com.playrix.gar"
-}
 android {
     namespace 'com.playrix.gar'
     compileSdk 33
@@ -57,26 +50,14 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
 
-    implementation "io.github.c0nnor263:obfustring-core:11.09"
-    implementation "com.appsflyer:af-android-sdk:6.11.1"
-
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-    implementation platform("com.google.firebase:firebase-bom:31.0.2")
-    implementation "com.google.firebase:firebase-crashlytics-ktx"
-    implementation "com.google.firebase:firebase-analytics-ktx"
-    implementation "com.google.firebase:firebase-config-ktx"
-
     implementation 'androidx.navigation:navigation-fragment-ktx:2.6.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.6.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-
-    implementation "com.google.android.gms:play-services-ads-identifier:18.0.1"
-    implementation "com.facebook.android:facebook-android-sdk:16.0.1"
-    implementation "com.onesignal:OneSignal:4.8.6"
 
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     implementation ("com.android.installreferrer:installreferrer:2.2")
@@ -90,7 +71,7 @@ dependencies {
 
     implementation 'com.github.bumptech.glide:glide:4.15.1'
 
-    implementation("io.coil-kt:coil:2.3.0")
+    implementation("io.coil-kt:coil:2.4.0")
 
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 }

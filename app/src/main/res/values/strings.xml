@@ -12,8 +12,6 @@
     <string name="wallpaper_image">Wallpaper Image</string>
     <string name="home">Home</string>
     <string name="lock">Lock</string>
-   <string name="opening_back">Opening Back</string>
-    <string name="loading_content">Loading</string>
     <string name="save_locally">Save locally</string>
     <string name="like">Like</string>
     <string name="remove_like">Remove like</string>

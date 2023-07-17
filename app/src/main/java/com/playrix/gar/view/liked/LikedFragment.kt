@@ -16,7 +16,7 @@ import com.playrix.gar.data.constants.lookup_items.RemoveMenuPojo.chosenPojo
 import com.playrix.gar.data.room.PhotosDatabase.Companion.getDatabaseInstance
 import com.playrix.gar.databinding.FragmentLikedBinding
 import com.playrix.gar.view.adapters_rv.LikedAdapter
-import com.playrix.gar.some_services.LikedViewModel
+import com.playrix.gar.viewmodels.LikedViewModel
 import com.playrix.gar.some_services.services.downloader.DownloadingManager
 import com.playrix.gar.some_services.services.lookuper.LookupImageManager
 import dagger.hilt.android.AndroidEntryPoint

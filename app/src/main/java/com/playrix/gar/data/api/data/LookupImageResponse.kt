@@ -2,10 +2,8 @@ package com.playrix.gar.data.api.data
 
 import androidx.annotation.Keep
 import com.google.gson.annotations.SerializedName
-import com.playrix.gar.data.api.data.lists.Photos
-import io.github.boiawidmb9mb12095n21b50215b16132.b21nm01om5n1905mw0bdkb2b515.ObfustringThis
+import com.playrix.gar.data.api.lists.Photos
 
-@ObfustringThis
 @Keep
 data class LookupImageResponse(
     @SerializedName("total_results")
